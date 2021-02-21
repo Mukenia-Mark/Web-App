@@ -10,21 +10,26 @@
       <div class='row border nt-3'>
         <div class='col-md-12'>
           <h1>What is your Akan Name?</h1>
-          <form id="nameForm" class="border p-3 mt-3">
-            <div class="nb-3">
-              <label for="Date of Birth" class="form-label"> Date of Birth</label>
-              <input type='date' class="form-control" id="Date of Birth" required>
+          <form>
+            <div class="form-group">
+              <label for="Date of Birth">Date of Birth</label>
+              <input type="date" class="form-control" id="Date of Birth">
             </div>
-            <div class="nb-3">
-              <label for="Gender" class="form-label">Gender</label>
-              <input type="text" class="form-control"id="Gender"required>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Gender
+              </button>
+              <div class="Gender" aria-labelledby="dropdownMenu1">
+                <button class="dropdown-item" type="button">Male</button>
+                <button class="dropdown-item" type="button">Female</button>
+              </div>
             </div>
-            <button type="submit" id="addBtn" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
       </div>
 
-      <div class="row border nt-3">
+      <div class="row">
         <div class="col-md-12">
           <table class="table">
             <thread>
