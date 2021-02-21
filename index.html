@@ -7,43 +7,47 @@
   </head>
   <body>
     <div class='container'>
-      <div class='row border nt-3'>
+      <div class="row border md 12">
         <div class='col-md-12'>
           <h1>What is your Akan Name?</h1>
           <form>
             <div class="form-group">
-              <label for="Date of Birth">Date of Birth</label>
-              <input type="date" class="form-control" id="Date of Birth">
+              <label for="exampleFormControlInput1">Date of Birth</label>
+              <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="date">
             </div>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Gender
-              </button>
-              <div class="Gender" aria-labelledby="dropdownMenu1">
-                <button class="dropdown-item" type="button">Male</button>
-                <button class="dropdown-item" type="button">Female</button>
-              </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Gender</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Male</option>
+                <option>Female</option>
+              </select>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+              <button class="btn btn-primary" type="submit" value="Submit">Submit</button>
           </form>
-        </div>
+          </div>
       </div>
 
-      <div class="row">
+      <div class="row border nt-3">
         <div class="col-md-12">
           <table class="table">
-            <thread>
+            <thead>
               <tr>
                 <th scope="col">Date of Birth</th>
                 <th scope="col">Gender</th>
+                <th scope="col">Akan Name</th>
               </tr>
-            </thread>
+            </thead>
+            <tbody id="akanName"> 
+              <tr>
+                <td></td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
-
     </div>
-    
+
+
     <script src="./js/index.js"></script>
   </body>
 </html> 
