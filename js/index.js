@@ -11,35 +11,35 @@ function clickFunction() {
 
 
     if ( day === 1 && gender === "Female" ) {
-    confirm("Your Akan name is Adwoa.");
+    alert("Your Akan name is Adwoa.");
     } else if ( day === 2 && gender === "Female") {
-    confirm("Your Akan name is Abenaa.");
+    alert("Your Akan name is Abenaa.");
     } else if ( day === 3 && gender === "Female") {
-    confirm("Your Akan name is Akua.");
+    alert("Your Akan name is Akua.");
     } else if ( day === 4 && gender === "Female") {
-    confirm("Your Akan name is Yaa.");
+    alert("Your Akan name is Yaa.");
     } else if ( day === 5 && gender === "Female") {
-    confirm("Your Akan name is Afua.");
+    alert("Your Akan name is Afua.");
     } else if ( day === 6 && gender === "Female") {
-    confirm("Your Akan name is Ama");
+    alert("Your Akan name is Ama");
     } else if ( day === 0 && gender === "Female") {
-    confirm("Your Akan name is Akosua.");
+    alert("Your Akan name is Akosua.");
     } else if ( day === 1 && gender === "Male") {
-    confirm("Your Akan name is Kwadowa.");
+    alert("Your Akan name is Kwadowa.");
     }else if ( day === 2 && gender === "Male") {
-    confirm("Your Akan name is Kwabena.");
+    alert("Your Akan name is Kwabena.");
     }else if ( day === 3 && gender === "Male") {
-    confirm("Your Akan name is Kwaku.");
+    alert("Your Akan name is Kwaku.");
     }else if ( day === 4 && gender === "Male") {
-    confirm("Your Akan name is Yaw");
+    alert("Your Akan name is Yaw");
     }else if ( day === 5 && gender === "Male") {
-    confirm("Your Akan name is Kofi.");
+    alert("Your Akan name is Kofi.");
     }else if ( day === 6 && gender === "Male") {
-    confirm("Your Akan name is Kwame.");
+    alert("Your Akan name is Kwame.");
     }else if ( day === 0 && gender === "Male") {
-    confirm("Your Akan name is Kwasi")
+    alert("Your Akan name is Kwasi")
     }else {
-    confirm("Your input is incorrect.");
+    alert("Your input is incorrect.");
     }
   }
 }
