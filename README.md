@@ -4,9 +4,8 @@ Author
 Mark Mukenia
 Getting Started
 No setup instructions
-(BDD)
-(technologies used)
-(contact information)
+Technologies used to maek this webapp were JavaScript and HTML.
+For more information send an email to mark.mukenia@gmail.com
 https://mukenia-mark.github.io/Web-App/
 License
 Copyright © 2021, Mark Mukenia. Released under the MIT license.
